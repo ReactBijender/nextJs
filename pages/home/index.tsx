@@ -1,10 +1,12 @@
 import axios from "axios";
+import Link from "next/link";
 export default function Home(props: any) {
   // console.log("object=>", fetchTodos());
   return (
     <div>
       <h1>Home</h1>
       <h2>hello</h2>
+      <Link href="/home">home</Link>
     </div>
   );
 }

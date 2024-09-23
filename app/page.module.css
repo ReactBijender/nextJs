@@ -1,0 +1,14 @@
+/* page.module.css */
+.linkClass {
+    display: flex;
+    margin-left: 0px;
+    text-decoration: none;
+    color: #fff;
+    padding: 44px;
+}
+.menuBar{
+  background: rgb(43 32 32);
+  font-size: 24px;
+  display: inline-flex;
+  width: 100%;
+}
